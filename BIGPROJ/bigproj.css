@@ -1,0 +1,27 @@
+
+.header {
+  overflow: hidden;
+  background-color: black;
+}
+.header p {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

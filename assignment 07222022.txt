@@ -1,0 +1,11 @@
+1. Create a website about your favorite anime, book, series, or etc.
+2. The website must be responsive
+3. The website must be created using bootstrap
+4. Maximize the use of fontawesome/bootstrap icons
+5. Maximize the use of flex elements
+
+
+https://icons.getbootstrap.com/
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">

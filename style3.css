@@ -1,0 +1,67 @@
+.firstDIV{
+    width: 50%;
+    height: 45vh;
+    background-color: blueviolet;
+    float: left;
+  }
+.secondDIV{
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+    color: brown;
+    float: right;
+  }
+.secondDIVContainer{
+    padding: 50px;
+    color: red!important;
+   }
+.staticPosition{
+    position: static;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+  }
+.staticElementPosition{
+    background-color: violet;
+    width: 30px;
+    height: 30px;
+    right: 0;
+  }
+.relativePosition{
+    position: relative;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+  }
+.absolutePosition{
+    position: absolute;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+.absolutePosition2{
+    position: absolute;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+.sampleNavigation{
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 10px;
+}
+body{
+    padding-top: 10px;
+}

@@ -1,0 +1,121 @@
+*{
+    color: rgb(228, 140, 194);
+    font-weight: lighter;
+    font-family: "Rubik Moonrocks";
+}
+.purpleDesign{
+    background-color: rgb(19, 12, 19);
+    font-weight: lighter;
+    font-family: "Rubik Moonrocks";
+    font-weight: lighter;
+}
+.blueDesign{
+    background-color: rgb(32, 32, 49);
+    font-weight: lighter;
+    font-family: "Rubik Moonrocks";
+    font-weight: lighter;
+}
+#headingDesign{
+    background-color: rgb(208, 188, 226);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: "Rubik Moonrocks";
+}
+body { 
+    background-image: url(img/boahancockgif.gif); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+#headingDesign {
+    width: 1180px;
+    height: 40px;
+    background-color: rgb(167, 77, 132);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+  }
+  @keyframes example {
+    0%   {background-color: pink;}
+    25%  {background-color: purple;}
+    50%  {background-color: pink;}
+    75% {background-color: purple;}
+    100% {background-color: pink;}
+  }
+#headingDesign {
+    box-shadow: aliceblue 10px 15px 5px 0px;
+  }
+.purpleDesign {
+    box-shadow: aliceblue 5px 10px 2px 0px;
+  }
+.blueDesign {
+    box-shadow: aliceblue 5px 10px 2px 0px;
+  }
+#overflowMode1 {
+    box-shadow: aliceblue 10px 15px 5px 0px;
+  }
+.boxMode1{
+  padding: 20px 30px 20px 30px;
+  border-left: solid whitesmoke 3px;
+  border-right: solid whitesmoke 3px;
+  border-top: solid whitesmoke 3px;
+  border-bottom: solid whitesmoke 3px;
+  margin: 30px 20px 20px 0px;
+  display: inline-block;
+  border: 10px dotted pink;
+  font-size: larger;
+}
+body {
+  width: 0px;
+  padding: 0px;
+  margin: 0x;
+}
+#overflowMode1{
+  background-color: rgb(5, 5, 5);
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+  text-indent: 20px;
+  word-spacing: 20px;
+}
+#textShadow{
+  text-shadow: 20px 20px 20px violet;
+  text-align: center;
+}
+#textManipulation{
+  letter-spacing: 2px;
+  word-spacing: 20px;
+}
+ul{
+  list-style-type: circle;
+   /*
+   list-style-type: square;
+   list-style-type: disc;
+   */
+}
+ol{
+  list-style-type: lower-alpha;
+   /*
+   list-style-type: numeric;
+   list-style-type: upper-alpha;
+   list-style-type: upper-roman;
+   list-style-type: lower-roman;
+  */
+}
+.firstDIV{
+  width: 50%;
+  height: 100vh;
+  background-color: red;
+  float: left;
+}
+.secondDIV{
+  width: 50%;
+  height: 100vh;
+  background-color: blue;
+  color: brown;
+  float: right;
+}
+.secondDIVContainer{
+  padding: 50px;
+  color: red!important;
+ }
